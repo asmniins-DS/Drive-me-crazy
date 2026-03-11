@@ -1,0 +1,27 @@
+# Looker Studio Dashboard URL
+# Replace the line below with your actual dashboard URL after publishing
+
+https://lookerstudio.google.com/reporting/YOUR_REPORT_ID_HERE
+
+# ─── How to set up the dashboard ───
+#
+# 1. Run both notebooks to generate CSV outputs:
+#      - dataset_summary.csv
+#      - traditional_results.csv
+#      - pdformer_results.csv
+#      - model_comparison.csv
+#
+# 2. Upload CSVs to Google Sheets (one sheet per CSV)
+#
+# 3. In Looker Studio (lookerstudio.google.com):
+#      - Create new report
+#      - Connect each Google Sheet as a data source
+#
+# 4. Suggested charts:
+#      - Scorecard: MAE / RMSE / MAPE per model
+#      - Bar chart: LSTM vs PDFormer per dataset (MAE, RMSE)
+#      - Line chart: Predicted vs Actual flow over time
+#      - Table: Full comparison across all datasets
+#      - Combo chart: Horizon analysis (MAE by forecast step)
+#
+# 5. After publishing, replace the URL above with your report link
