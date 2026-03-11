@@ -1,0 +1,4 @@
+Dataset,Timesteps,Sensors,Features,Duration (days),Mean Flow,Std Flow,Missing (%)
+PeMS04,1000,30,3,3.5,81.67,29.02,0.0
+PeMS07,1000,30,3,3.5,81.66,29.11,0.0
+PeMS08,1000,30,3,3.5,81.67,29.05,0.0
